@@ -7,6 +7,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.DriverFactory;
@@ -113,6 +114,19 @@ public class BasePage extends DriverFactory {
         } catch (Exception e) {
             System.out.println("Unable to click on the WebElement, using locator: " + "<" + locator + ">" + ", using a custom Timeout of: " + timeout);
             Assert.fail("Unable to click on the WebElement, Exception: " + e.getMessage());
+        }
+    }
+
+    public void selectElementFromDropDown(WebElement locator,String name, WebDriver driver, int timeout) {
+        try {
+            final WebDriverWait customWait = new WebDriverWait(driver, timeout);
+            customWait.until(ExpectedConditions.refreshed(ExpectedConditions.visibilityOf(locator)));
+            final Select element = new Select(driver.findElement(By.id("id_contact")));
+            element.selectByVisibleText(name);
+            System.out.println("Successfully select the WebElement, using locator: " + "<" + locator + ">" + ", using a custom Timeout of: " + timeout);
+        } catch (Exception e) {
+            System.out.println("Unable to select the WebElement, using locator: " + "<" + locator + ">" + ", using a custom Timeout of: " + timeout);
+            Assert.fail("Unable to select the WebElement, Exception: " + e.getMessage());
         }
     }
 
