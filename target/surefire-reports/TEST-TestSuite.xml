@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="20.477" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.7+8-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin"/>
+    <property name="user.country.format" value="AI"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Nazar\IdeaProjects\WebdriverUniversity\CucumberFramework"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Nazar\IdeaProjects\WebdriverUniversity\CucumberFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.7+8-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Nazar\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;%JAVA_HOME%\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;%M2_HOME%\bin;C:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Users\Nazar\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Nazar"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Nazar"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.7"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="feature" classname="runners.MainRunner" time="9.129">
+    <failure message="java.lang.AssertionError" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError
+Caused by: java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[...
+... TestNG 6.9.10 by Cédric Beust (cedric@beust.com)
+...
+
+Feature: Submit data to webdriveruniversity.com using contact us form
+WebElement is visible using locator: <[[ChromeDriver: chrome on XP (63040b1717c65be4027532240bda2af5)] -> xpath: //input[@name='first_name']]]]><![CDATA[>
+Successfully Sent the following keys: 'Tom' to element: <[[ChromeDriver: chrome on XP (63040b1717c65be4027532240bda2af5)] -> xpath: //input[@name='first_name']]]]><![CDATA[>
+WebElement is visible using locator: <[[ChromeDriver: chrome on XP (63040b1717c65be4027532240bda2af5)] -> xpath: //input[@name='last_name']]]]><![CDATA[>
+Successfully Sent the following keys: 'jackson' to element: <[[ChromeDriver: chrome on XP (63040b1717c65be4027532240bda2af5)] -> xpath: //input[@name='last_name']]]]><![CDATA[>
+WebElement is visible using locator: <[[ChromeDriver: chrome on XP (63040b1717c65be4027532240bda2af5)] -> xpath: //input[@name='email']]]]><![CDATA[>
+Successfully Sent the following keys: 'webdriveruniversity@outlook.com' to element: <[[ChromeDriver: chrome on XP (63040b1717c65be4027532240bda2af5)] -> xpath: //input[@name='email']]]]><![CDATA[>
+WebElement is visible using locator: <[[ChromeDriver: chrome on XP (63040b1717c65be4027532240bda2af5)] -> xpath: //textarea[@name='message']]]]><![CDATA[>
+Successfully Sent the following keys: 'example comment two' to element: <[[ChromeDriver: chrome on XP (63040b1717c65be4027532240bda2af5)] -> xpath: //textarea[@name='message']]]]><![CDATA[>
+
+  Scenario: Submit valid data via contact us form                                 # contactus.feature:3
+    Given I access webdriveruniversity contact us form                            # ContactUsSteps.i_access_webdriveruniversity_contact_us_form()
+    When I enter a valid firstname                                                # ContactUsSteps.i_enter_a_valid_firstname()
+    When I enter a valid last name                                                # ContactUsSteps.i_enter_a_valid_last_name(DataTable)
+    And i enter a valid email address                                             # ContactUsSteps.i_enter_a_valid_email_address()
+    And i enter comments                                                          # ContactUsSteps.i_enter_comments(DataTable)
+    When i click on the submit button                                             # ContactUsSteps.i_click_on_the_submit_button()
+      java.lang.AssertionError
+      	at org.junit.Assert.fail(Assert.java:86)
+      	at org.junit.Assert.fail(Assert.java:95)
+      	at pageObjects.ContactUs_Page.clickOnSubmiButton(ContactUs_Page.java:50)
+      	at stepDefinitions.ContactUsSteps.i_click_on_the_submit_button(ContactUsSteps.java:46)
+      	at ?.When i click on the submit button(contactus.feature:11)
+
+    Then the information should successfully be submitted via the contact us form # ContactUsSteps.the_information_should_successfully_be_submitted_via_the_contact_us_form()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 47340
+Only local connections are allowed.
+Jul 23, 2020 3:31:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="runners.MainRunner" time="9.727">
+    <failure message="java.lang.AssertionError" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError
+Caused by: java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[Feature: Products page
+
+  Scenario Outline: validate promo code alert is visible when clicking on the special offers link # products.feature:3
+    Given user navigates to "<url>" website
+    When user clicks on "<button>"
+    Then user should be presented with a promo alert
+
+    Examples: 
+
+  Scenario Outline: validate promo code alert is visible when clicking on the special offers link        # products.feature:10
+    Given user navigates to "http://www.webdriveruniversity.com/Page-Object-Model/products.html" website # ProductSteps.user_navigates_to_website(String)
+    When user clicks on "#container-special-offers2"                                                     # ProductSteps.user_clicks_on(String)
+      java.lang.AssertionError
+      	at org.junit.Assert.fail(Assert.java:86)
+      	at org.junit.Assert.fail(Assert.java:95)
+      	at stepDefinitions.ProductSteps.user_clicks_on(ProductSteps.java:20)
+      	at ?.When user clicks on "#container-special-offers2"(products.feature:5)
+
+    Then user should be presented with a promo alert                                                     # ProductSteps.user_should_be_presented_with_a_promo_alert()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 48711
+Only local connections are allowed.
+Jul 23, 2020 3:31:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>
