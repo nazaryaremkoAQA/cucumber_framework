@@ -1,3 +1,7 @@
 *.class
 .idea
 *.dump
+*.html
+*.json
+*.xml
+*.xml
