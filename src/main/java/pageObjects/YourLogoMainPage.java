@@ -16,7 +16,7 @@ public class YourLogoMainPage extends BasePage{
     public @FindBy(id = "contact-link")
     WebElement contactUs;
 
-    public @FindBy(id = "contact-link")
+    public @FindBy(xpath = "//a[@title='T-shirts']")
     List<WebElement> tShirt;
 
     public YourLogoMainPage() throws IOException {
